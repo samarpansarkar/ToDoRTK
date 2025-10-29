@@ -34,7 +34,7 @@ const UpdateTodoPage = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log("Updated Todo:", formData);
-        dispatch(updateTodo(id, formData));
+        dispatch(updateTodo({ id, formData }));
     };
 
     return (

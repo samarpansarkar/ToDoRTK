@@ -49,10 +49,12 @@ export const todoDetails = createAsyncThunk(
 
 export const updateTodo = createAsyncThunk(
   "updateTodo",
-  async (id, formData, { rejectWithValue }) => {
+  async ({id, formData}, { rejectWithValue }) => {
     try {
       const response = await ApiManager.put(`/todo/${id}`, formData);
       const data = await response.data;
+      console.log("post", data);
+
       return data;
     } catch (error) {
       console.log(error.message);

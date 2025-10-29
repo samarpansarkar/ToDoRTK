@@ -2,7 +2,7 @@
   "todo": [
     {
       "id": "1",
-      "title": "Buy groceries",
+      "title": "Buy ice",
       "description": "Purchase milk, bread, and vegetables from the supermarket.",
       "status": "pending",
       "priority": "medium",
