@@ -2,7 +2,7 @@
   "todo": [
     {
       "id": "1",
-      "title": "Buy ice",
+      "title": "JIO mart shopping.",
       "description": "Purchase milk, bread, and vegetables from the supermarket.",
       "status": "pending",
       "priority": "medium",
@@ -159,22 +159,6 @@
       "status": "pending",
       "priority": "low",
       "dueDate": "2025-11-07"
-    },
-    {
-      "id": "b8bf",
-      "title": "Playing valorant!!",
-      "description": "Play valorant with my friends!!!",
-      "dueDate": "2025-10-29",
-      "priority": "medium",
-      "status": "pending"
-    },
-    {
-      "id": "42e5",
-      "title": "Playing GTA",
-      "description": "GTA-6",
-      "dueDate": "2025-10-30",
-      "priority": "high",
-      "status": "completed"
     }
   ]
 }

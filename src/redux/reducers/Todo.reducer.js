@@ -31,6 +31,21 @@ export const createTodo = createAsyncThunk(
   }
 );
 
+export const deleteTodo = createAsyncThunk(
+  "deleteTodo",
+  async (id, { rejectWithValue }) => {
+    try {
+      const response = await ApiManager.delete(`/todo/${id}`);
+      const data = response.data;
+      console.log(data);
+      return id;
+    } catch (error) {
+      console.log(error.message);
+      return rejectWithValue(error);
+    }
+  }
+);
+
 export const todoDetails = createAsyncThunk(
   "todoDetails",
   async (id, { rejectWithValue }) => {
@@ -49,7 +64,7 @@ export const todoDetails = createAsyncThunk(
 
 export const updateTodo = createAsyncThunk(
   "updateTodo",
-  async ({id, formData}, { rejectWithValue }) => {
+  async ({ id, formData }, { rejectWithValue }) => {
     try {
       const response = await ApiManager.put(`/todo/${id}`, formData);
       const data = await response.data;

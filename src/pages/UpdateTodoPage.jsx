@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useParams } from "react-router-dom";
-import { todoDetails, updateTodo } from "../redux/reducers/Todo.reducer";
+import { useNavigate, useParams } from "react-router-dom";
+import { deleteTodo, todoDetails, updateTodo } from "../redux/reducers/Todo.reducer";
+import { toast } from "react-toastify";
 
 const UpdateTodoPage = () => {
     const [formData, setFormData] = useState({
@@ -14,6 +15,7 @@ const UpdateTodoPage = () => {
 
     const { id } = useParams();
     const dispatch = useDispatch();
+    const navigate = useNavigate();
     const { todo, isLoading, isError, errorMsg } = useSelector((state) => state.todos);
 
     useEffect(() => {
@@ -36,6 +38,12 @@ const UpdateTodoPage = () => {
         console.log("Updated Todo:", formData);
         dispatch(updateTodo({ id, formData }));
     };
+
+    const deleteHandler = () => {
+        dispatch(deleteTodo(id)),
+            navigate("/")
+        toast.success("Todo Deleted sucessfully!!!")
+    }
 
     return (
         <section className="min-h-screen bg-gray-50 flex justify-center items-center p-4">
@@ -124,6 +132,8 @@ const UpdateTodoPage = () => {
                         >
                             Update Todo
                         </button>
+                        <button onClick={() => { deleteHandler() }} className="w-full bg-red-600 text-white font-semibold py-2 rounded-lg hover:bg-red-700 transition-all"
+                        >Delete Todo</button>
                     </form>
                 )}
             </div>
