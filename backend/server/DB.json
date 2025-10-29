@@ -1,0 +1,180 @@
+{
+  "todo": [
+    {
+      "id": "1",
+      "title": "Buy groceries",
+      "description": "Purchase milk, bread, and vegetables from the supermarket.",
+      "status": "pending",
+      "priority": "medium",
+      "dueDate": "2025-10-29"
+    },
+    {
+      "id": "2",
+      "title": "Finish React project",
+      "description": "Complete the final module and deploy it on Vercel.",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2025-11-02"
+    },
+    {
+      "id": "3",
+      "title": "Morning workout",
+      "description": "Go for a 30-minute jog and stretch.",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2025-10-27"
+    },
+    {
+      "id": "4",
+      "title": "Call client for feedback",
+      "description": "Discuss recent UI updates and get client approval.",
+      "status": "pending",
+      "priority": "high",
+      "dueDate": "2025-10-30"
+    },
+    {
+      "id": "5",
+      "title": "Clean workspace",
+      "description": "Organize desk and delete unused files.",
+      "status": "pending",
+      "priority": "low",
+      "dueDate": "2025-11-01"
+    },
+    {
+      "id": "6",
+      "title": "Prepare presentation slides",
+      "description": "Create PowerPoint slides for the upcoming meeting.",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2025-10-31"
+    },
+    {
+      "id": "7",
+      "title": "Pay electricity bill",
+      "description": "Pay the monthly electricity bill before the due date.",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2025-10-26"
+    },
+    {
+      "id": "8",
+      "title": "Read new JavaScript article",
+      "description": "Go through the ES2025 feature summary on MDN.",
+      "status": "pending",
+      "priority": "low",
+      "dueDate": "2025-11-03"
+    },
+    {
+      "id": "9",
+      "title": "Team meeting",
+      "description": "Weekly team sync-up at 10 AM.",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2025-10-27"
+    },
+    {
+      "id": "10",
+      "title": "Submit expense report",
+      "description": "Fill out and submit last month's expense form.",
+      "status": "pending",
+      "priority": "medium",
+      "dueDate": "2025-10-29"
+    },
+    {
+      "id": "11",
+      "title": "Backup project files",
+      "description": "Upload all source files to Google Drive for backup.",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2025-10-30"
+    },
+    {
+      "id": "12",
+      "title": "Fix bugs in login page",
+      "description": "Resolve validation and API response issues in login form.",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2025-10-31"
+    },
+    {
+      "id": "13",
+      "title": "Book dentist appointment",
+      "description": "Schedule a dental check-up for next week.",
+      "status": "pending",
+      "priority": "low",
+      "dueDate": "2025-11-05"
+    },
+    {
+      "id": "14",
+      "title": "Write blog post",
+      "description": "Write a blog post about 'React Router v7 new features'.",
+      "status": "pending",
+      "priority": "medium",
+      "dueDate": "2025-11-02"
+    },
+    {
+      "id": "15",
+      "title": "Watch React conference video",
+      "description": "Watch highlights from React Conf 2025.",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2025-10-25"
+    },
+    {
+      "id": "16",
+      "title": "Plan weekend trip",
+      "description": "Look for nearby places to visit with friends.",
+      "status": "pending",
+      "priority": "low",
+      "dueDate": "2025-11-06"
+    },
+    {
+      "id": "17",
+      "title": "Test API endpoints",
+      "description": "Verify all REST API routes using Postman.",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2025-10-30"
+    },
+    {
+      "id": "18",
+      "title": "Update portfolio site",
+      "description": "Add new projects and fix mobile responsiveness.",
+      "status": "pending",
+      "priority": "medium",
+      "dueDate": "2025-11-03"
+    },
+    {
+      "id": "19",
+      "title": "Study Redux Toolkit",
+      "description": "Understand RTK Query and create a small demo app.",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2025-11-04"
+    },
+    {
+      "id": "20",
+      "title": "Organize photo gallery",
+      "description": "Sort and rename old vacation photos.",
+      "status": "pending",
+      "priority": "low",
+      "dueDate": "2025-11-07"
+    },
+    {
+      "id": "b8bf",
+      "title": "Playing valorant!!",
+      "description": "Play valorant with my friends!!!",
+      "dueDate": "2025-10-29",
+      "priority": "medium",
+      "status": "pending"
+    },
+    {
+      "id": "42e5",
+      "title": "Playing GTA",
+      "description": "GTA-6",
+      "dueDate": "2025-10-30",
+      "priority": "high",
+      "status": "completed"
+    }
+  ]
+}
